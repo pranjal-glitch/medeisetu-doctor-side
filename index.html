@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medisetu Doctor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- PATIENT PROFILE PAGE -->
+<div id="patient-page" class="page">
+
+  <h2>Patient Profile</h2>
+
+  <div id="patient-info-box">
+    <p><b>Name:</b> <span id="p-name"></span></p>
+    <p><b>Age:</b> <span id="p-age"></span></p>
+    <p><b>Phone:</b> <span id="p-phone"></span></p>
+  </div>
+
+  <h3>History</h3>
+  <div id="patient-history">
+    No history available
+  </div>
+
+  <button id="back-from-patient" class="btn">Back to Appointments</button>
+
+</div>
+
+<body>
+
+<!-- LOGIN PAGE -->
+<div id="login-page" class="page active">
+  <div class="login-container">
+    <h1>Medisetu Doctor</h1>
+
+    <div class="card">
+      <h2>Doctor Login</h2>
+
+      <input type="text" id="doctor-id" placeholder="Enter Doctor ID or Email">
+      <p id="login-error" class="error hidden">Please enter Doctor ID</p>
+
+      <button id="login-btn" class="btn">Continue</button>
+    </div>
+  </div>
+</div>
+
+<!-- APPOINTMENTS PAGE -->
+<div id="appointments-page" class="page">
+
+  <h2>Appointments</h2>
+  <p>Logged in as: <span id="header-doctor-id"></span></p>
+
+  <button id="logout-btn" class="btn">Logout</button>
+  <button id="book-appointment-btn" class="btn">Book Appointment</button>
+
+  <div id="appointments-list"></div>
+
+</div>
+
+<!-- BOOK PAGE -->
+<div id="book-page" class="page">
+
+  <h2>Book Appointment</h2>
+
+  <form id="book-form">
+    <input id="patient-name" placeholder="Patient Name" required>
+    <input id="patient-phone" placeholder="Phone" required>
+    <input id="patient-age" type="number" placeholder="Age" required>
+
+    <input id="appointment-date" type="date" required>
+
+    <select id="appointment-time" required>
+      <option value="">Select Time</option>
+      <option>10:00 AM</option>
+      <option>10:30 AM</option>
+      <option>11:00 AM</option>
+    </select>
+
+    <button type="submit" class="btn">Save</button>
+  </form>
+
+  <button id="back-from-book" class="btn">Back</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
