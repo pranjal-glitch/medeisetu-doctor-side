@@ -11,7 +11,6 @@ let state = {
   appointments: [],
   currentPatient: null
 };
-
 // ======== PAGE CONTROL ========
 function show(pageId) {
   document.querySelectorAll(".page").forEach(p =>
