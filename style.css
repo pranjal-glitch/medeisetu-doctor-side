@@ -7,7 +7,6 @@ body {
   display: none;
   padding: 20px;
 }
-
 .page.active {
   display: block;
 }
