@@ -22,7 +22,6 @@ function show(pageId) {
 
 // ======== INIT ========
 window.onload = function () {
-
   // Load saved data
   state.doctor = localStorage.getItem(STORAGE.DOCTOR);
   state.appointments = JSON.parse(localStorage.getItem(STORAGE.APPOINTMENTS) || "[]");
