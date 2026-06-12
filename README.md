@@ -20,7 +20,6 @@ Medisetu Doctor Dashboard is a front-end application that allows doctors to:
 
 All data is stored using **LocalStorage**, so no backend is required.
 
----
 
 ## ✨ Features
 
