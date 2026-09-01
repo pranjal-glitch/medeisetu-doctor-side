@@ -4,8 +4,6 @@ Doctor side of medisetu
 
 A simple and interactive web-based dashboard designed for doctors to manage patient appointments, view patient profiles, and maintain patient history – built using pure HTML, CSS, and JavaScript.
 
-
-
 ## 🚀 Project Overview
 
 Medisetu Doctor Dashboard is a front-end application that allows doctors to:
