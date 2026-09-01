@@ -1,4 +1,4 @@
-# medeisetu-doctor-side
+# Medeisetu-doctor-side
 Doctor side of medisetu
 # Medisetu Doctor Dashboard
 
