@@ -40,8 +40,6 @@ All data is stored using **LocalStorage**, so no backend is required.
 - All information stored in browser LocalStorage  
 - Data remains after page refresh  
 
----
-
 ## 🛠 Technologies Used
 
 - **HTML** – Page structure  
